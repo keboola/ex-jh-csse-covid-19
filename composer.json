@@ -1,9 +1,9 @@
 {
-    "name": "keboola/my-component",
-    "description": "MyComponent description",
+    "name": "keboola/ex-jh-csse-covid-19",
+    "description": "Extractor for downloading data from github repo with covid19 stats",
     "license": "MIT",
     "require": {
-        "php": "^7.4",
+        "php": "^7.3",
         "keboola/php-component": "^8.1"
     },
     "require-dev": {
@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "MyComponent\\": "src/"
+            "Keboola\\ExJhCsseCovid19\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MyComponent\\Tests\\": "tests/phpunit/",
-            "MyComponent\\FunctionalTests\\": "tests/functional/"
+            "Keboola\\ExJhCsseCovid19\\Tests\\": "tests/phpunit/",
+            "Keboola\\ExJhCsseCovid19\\FunctionalTests\\": "tests/functional/"
         }
     },
     "scripts": {
